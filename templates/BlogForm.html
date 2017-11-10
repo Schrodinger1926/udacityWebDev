@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title> BlogSpot </title>
+</head>
+
+<body>
+	<h1>
+		Enter you blog here !
+	</h1>	
+
+	<hr>
+
+	<form method="post">
+		<label>
+			<div> subject </div>
+			<input type="text" name="subject" value="{{title}}">
+		</label>
+		
+		<label>
+			<div> content </div>
+			<textarea type="text" name="content">{{blog}}</textarea>
+		</label>
+		<br>
+		<button>submit</button>	
+
+	</form>
+	
+	
+
+	<div>{{error}}</div>
+
+</body>
+
+</html>

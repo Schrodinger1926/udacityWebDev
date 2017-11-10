@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	Signup
+
+	<form method="post">
+
+	  Username <input type="text" name="username" value = {{default_user}} > <span style="color:red">{{user_comment}} </span>
+	  <br>
+	  Password <input type="password" name="password" value = {{default_pass}}> <span style="color:red">{{pass_comment}} </span>
+	  <br>
+	  Verify Password <input type="password" name="verify" value = {{default_vrf}}> <span style="color:red">{{vrf_comment}} </span>
+	  <br>
+	  Email (optional) <input type="text" name="email" value = {{default_email}}> <span style="color:red">{{email_comment}} </span>
+	  <br>
+	  <input type="submit">
+	  
+	</form>
+
+
+</body>
+</html>
